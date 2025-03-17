@@ -1,4 +1,3 @@
 gradio
-fastapi
 python-dotenv
 openai
