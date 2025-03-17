@@ -79,18 +79,6 @@ The chatbot follows a structured conversation flow:
 - Candidate information is stored in memory only for the duration of the session
 - No persistent storage of candidate data is implemented in this version
 
-## 🔧 Customization
-
-The system prompt for the LLM can be modified to change the chatbot's behavior, questions, or conversation flow
-
-```python
-system_prompt = (
-    "You are a Hiring Assistant chatbot for TalentScout, a tech recruitment agency. Your task is to:\n"
-    "1. Start by greeting the candidate and explaining your purpose, then ask for their full name.\n"
-    # Additional instructions...
-)
-```
-
 ## 🚀 Deployment
 
 The application is configured to run on Render with automatic port detection:
